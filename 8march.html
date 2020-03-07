@@ -1,60 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="8march.css">
-        <script type="text/javascript" src="8march.js"></script>
+        <title>International Women's day</title>
     </head>
     <body>
-    <div class="words">
-        <div class="a">Women</div>
-        <div class="b">are</div>
-        <div class="c">Powerful</div>
-        <div class="d">Beautiful</div>
-        <div class="e">Brilliant</div>
-        <div class="f">Brave</div>
-        <div class="g">Love them</div>
-        <div class="h">RESPECT<br >them</div>
-        <div class="j">Be Happy</div>
-        <div class="i">Wishing You Happy Women's Day</div>
-    </div>
-        <div class="body1">
-            <div class="face"></div>
-            <div class="neck"></div>
-            <div class="neck1"></div>
-            <div class="body1"></div>
-            <div class="leftbod"></div>
-            <div class="rightbod"></div>
-            <div class="bow1"></div>
-            <div class="bow2"></div>
-            <div class="bow3"></div>
-            <div class="bow4"></div>
-            <div class="bow5"></div>
-            <div class="handl"></div>
-            <div class="handr"></div>
-            <div class="eyel"></div>
-            <div class="eyer"></div>
-            <div class="eye1"></div>
-            <div class="eye2"></div>
-            <div class="eye3"></div>
-            <div class="eye4"></div>
-            <div class="hair1"></div>
-            <div class="hair2"></div>
-            <div class="hair3"></div>
-            <div class="mouth"></div>
-            <div class="earl"></div>
-            <div class="earr"></div>
-            <div class="ear1"></div>
-            <div class="ear2"></div>
-            <div class="blushl"></div>
-            <div class="blushr"></div>
-            <div class="nose"></div>
-            <div class="brow"></div>
-            <div class="hair4"></div>
-            <div class="hair5"></div>
-            <div class="hair6"></div>
-            <div class="hair7"></div>
-            <div class="hair8"></div>
-        <div class="heart"></div></div>
+<svg fill="red"  id="heart"width="250" height="250" viewBox="0 0 1200 1200"><path d="M1176.629 250.347c54.502 168.401 8.89 339.761-87.232 468.872-63.446 87.553-139.273 163.012-216.796 228.983-71.322 66.39-230.933 197.753-273.241 201.402-37.394-7.148-79.353-49.433-109.039-71.196C323.503 951.599 143.93 797.388 52.878 628.779c-76.34-161.871-76.48-362.086 42.333-486.189C249.271 3.702 481.533 30.841 599.359 175.944c31.644-41.05 70.556-73.335 116.737-96.853 187.213-74.728 381.972 1.418 460.533 171.256z"/></svg>
+<h2 id="congrat"></h2>
+<style type="text/css">
+body{
+text-align:center;
+word-wrap:break-word;
+color:purple}
+#heart{
+-webkit-animation:knock 500ms linear infinite;}
+@-webkit-keyframes knock{
+0%{width:150px;height:150px;margin-bottom:50px;margin-top:50px;}
+100%{width:250px;height:250px;margin-bottom:0px;margin-top:0px;}}
+</style>
+<script type="text/javascript">
+var congrattext="Happy   Women's   Day   all   girls   and   women!";
+var pos = 0;
+function Congratulations(){
+var intv = setTimeout("Congratulations()",75);
+if(pos != congrattext.length){
+congrat.innerHTML += congrattext[pos];
+pos++;}
+else{
+clearInterval(intv)}}
+setTimeout("Congratulations()",500);
+</script>
     </body>
 </html>
